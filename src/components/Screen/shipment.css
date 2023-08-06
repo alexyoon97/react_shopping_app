@@ -1,0 +1,20 @@
+.confirmation_text{
+    margin: auto;
+    padding: 2vh;
+    margin-bottom: 8vh;
+    text-align: center;
+    background-color: rgba(104, 147, 240, 0.157);
+    box-shadow: 0 0 10px rgba(156, 156, 156, 0.335);
+    color: black(255, 255, 255);
+}
+.order_info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    width: 55%;
+    font-size: 2.5vh;
+    box-shadow: 0 0 10px rgba(156, 156, 156, 0.335);
+    background-color: white;
+    padding: 10vh 3vh 10vh 3vh;
+}

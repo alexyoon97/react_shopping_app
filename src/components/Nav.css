@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.Nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vh;
+}
+.Menu h2{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 4vh;
+    font-size: 2vh;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Menu h2:hover{
+    color: #049c15;
+}

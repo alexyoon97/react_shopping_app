@@ -1,0 +1,88 @@
+.checkout_container {
+  background-color: #f1f2f4;
+  width: 100%;
+  margin: 18vh 0vh;
+  padding-bottom: 15vh;
+}
+.user_info {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(156, 156, 156, 0.335);
+  background-color: white;
+  padding-bottom: 5vh;
+  border-radius: 20px;
+  padding: 5vh;
+  width: 45%;
+  margin: auto;
+  text-align: left;
+}
+.user_info input {
+  padding: 2vh;
+}
+.cart_items {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 1vh 0vh;
+}
+.cart_info {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.cart-item_cards{
+    display: flex;
+    background-color: rgba(231, 231, 216, 0.603);
+    padding: 2vh;
+    border-radius: 20px;
+    margin: 2vh 1vh;
+    flex-direction: column;
+    width: 23vh;
+}
+.cart-item_cards img {
+  width: auto;
+  height: 14vh;
+  border-radius: 30px;
+}
+.subtotal {
+  background-color: white;
+  padding: 1vh 3vh;
+  border-radius: 10px;
+  height: 6vh;
+  margin: 5vh;
+  font-size: 3vh;
+  bottom: 0px;
+  margin-left: auto;
+}
+.user_contact {
+  padding-bottom: 5vh;
+}
+.user_contact input {
+  padding: 1vh;
+  width: 49%;
+  margin: auto;
+}
+.user_shipping_address input {
+  padding: 1vh;
+  margin: 1vh 0.8vh;
+  width: 100%;
+}
+.submit {
+  margin-left: auto;
+  width: 35%;
+  margin-top: 4vh;
+  position: relative;
+  padding: 3vh;
+  font-size: 2vh;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(120, 219, 62);
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: rgba(120, 219, 62, 0.698);
+}
